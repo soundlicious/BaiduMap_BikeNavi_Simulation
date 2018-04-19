@@ -15,10 +15,10 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            buildConfigField("String", "BAIDU_AK", "\"${System.getenv("BAIDU_AK")}\"")
+            resValue "string", "BAIDU_AK", "\"${System.getenv("BAIDU_AK")}\""
         }
         debug {
-            buildConfigField("String", "BAIDU_AK", "\"${System.getenv("BAIDU_AK")}\"")
+            resValue "string", "BAIDU_AK", "\"${System.getenv("BAIDU_AK")}\""
         }
     }
 

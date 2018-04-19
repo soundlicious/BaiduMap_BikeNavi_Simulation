@@ -34,7 +34,7 @@
         android:supportsRtl="true">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="@String/BAIDU_AK"/>
+            android:value="@string/BAIDU_AK"/>
 
         <activity android:name=".BNaviGuideActivity">
 
